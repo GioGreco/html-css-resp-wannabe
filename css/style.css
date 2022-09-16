@@ -130,7 +130,9 @@ img {
 
  /* style for viewport width: 768px < width < 1140px */
 @media screen and (min-width: 768px) and (max-width: 1140px){
-
+    .container{
+        width: 100%;
+    }
 }
 
 /* style for viewport width: 480px < width < 768px */
