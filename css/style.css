@@ -128,6 +128,10 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* style for viewport width: 768px < width < 1140px */
+@media screen and (min-width: 768px) and (max-width: 1140px){
+
+}
 
 /* style for viewport width: 480px < width < 768px */
  @media screen and (max-width: 768px){
@@ -137,9 +141,15 @@ img {
 }
 /* style for viewport width: 0px < width < 480px */
  @media screen and (max-width: 480px){
-   
- }
-/* style for viewport width: 768px < width < 1140px */
- @media screen and (min-width: 768px) and (max-width: 1140px){
-
+    .container{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .col{
+        width: 100%;
+        padding: 25px 0;
+    }
+    
  }
